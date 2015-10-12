@@ -6,13 +6,9 @@
 <body>
 <h1>Draw Below!</h1>
 
-<div id="gridcontainer">
-
-
-
-
-
-</div>
+	<div id="container">
+	
+	</div>
 <script type="text/javascript" src="jquery-latest.js"> </script>
 <script type="text/javascript" src="sketch.js"> </script>
 </body>
