@@ -10,11 +10,16 @@ $('#container > div').hover(
 	$(this).removeClass('startunit')
 	$(this).addClass('drawunit')   
 	});
-$("div").click(function(){
-	$('div.drawunit').addClass('startunit')	
-	$('div.startunit').removeClass('drawunit')
+
+$('#button').click(
+	function(){
+	if ($('#container > div').hasClass('drawunit'))
+		$('#container > div').removeClass('drawunit')
+		$('#container > div').addClass('startunit')
 	
-} 
+	}
+	
+
 	});
 
 
